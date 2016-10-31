@@ -94,3 +94,5 @@ class FileSystem implements Interfaces.IFileSystem<DirectoryItem> {
     return;
   }
 }
+
+export {FileSystem, Directory, File, DirectoryItem};

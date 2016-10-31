@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
-      "target": "es5",
-      "outDir": "js",
-      "module": "commonjs",
-      "sourceMap": false
+      "target": "es5"//,
+      //"outDir": "js",
+      //"module": "commonjs",
+      //"sourceMap": true
   },
   "files": [
-      "ts/app.ts"
+      "app.ts"
   ]
 }

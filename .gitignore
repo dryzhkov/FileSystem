@@ -1,5 +1,5 @@
 # See https://github.com/Microsoft/TypeScript/blob/master/.gitignore
-
+js/
 node_modules/
 built/*
 tests/cases/rwc/*

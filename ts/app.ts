@@ -8,7 +8,12 @@ const file = new File();
 file.id = 'GUID';
 file.title = 'First File';
 
+const folder = new Directory();
+folder.id = 'GUID2';
+folder.title = 'Folder 1';
+
 fs.add(file, '/');
+fs.add(folder, '/');
 
 const items: DirectoryItem[] = fs.getItems('/');
 
